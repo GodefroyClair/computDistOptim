@@ -8,7 +8,7 @@ from distOptim2 import dist as dist2
 # from dist import dist
 
 np.random.seed(42)
-size = 750
+size = 50
 compCords = pd.DataFrame(
     {'compLat': np.random.uniform(-30, 30, size),
         'compLong': np.random.uniform(-30, 30, size)})
