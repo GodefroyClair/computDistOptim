@@ -22,4 +22,3 @@ g +
   geom_point(data= size_pred, mapping = aes(x=size, y=time), col = "red") + 
   geom_line(data= size_pred, col = 'red') +
   scale_y_log10()
-
